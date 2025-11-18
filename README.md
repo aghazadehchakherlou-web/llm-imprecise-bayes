@@ -40,12 +40,15 @@ pip install -r requirements.txt
 
 ## 🌐 Overview
 
-### General Structure
+### General Structure:
+This figure provides a high-level overview of HIP-LLM, with an emphasis on how the operational profile shapes the analysis. It shows how an LLM is broken into multiple domains, each made up of several subdomains. Subdomains within the same domain share information, while different domains remain independent. This layered structure supports reliability inference from subdomains up to the full LLM ( subdomain → domain → LLM).
+
 <p align="center">
   <img src="./General_Structure.PNG" width="80%">
 </p>
 
-### Hierarchical Bayesian Model
+### Hierarchical Bayesian Model: This visualization corresponds to the detailed model. It illustrates the full bottom-up Bayesian inference flow.
+This diagram illustrates the full hierarchical model used in HIP-LLM. It shows how subdomain results feed into domain-level parameters, which are then combined using operational profiles to estimate domain and system-level reliability. It highlights how uncertainty is represented and propagated through the hierarchy.
 <p align="center">
  <img src="./hierarchical_Bayes_imprecise_dependentSub_independentDomain-hyperInterval.png" width="80%">
 </p>
@@ -60,32 +63,38 @@ Large Language Models (LLMs) are increasingly deployed across diverse domains, r
 
 ## 📊 Visualizations
 
-### Subdomain Structure
+### Subdomain Structure:
+This figure focuses on the lowest layer of the hierarchy. Each subdomain contributes its own performance data, which forms the basis for estimating subdomain-level accuracy. These estimates serve as the starting point for all higher-level reliability analysis.
 <p align="center">
   <img src="./subdomain.PNG" width="80%">
 </p>
 
-### Domain Structure
+### Domain Structure:
+This figure shows how subdomain results within the same domain are combined. The model treats subdomains in a domain as related, so evidence from one subdomain influences others. The domain structure summarizes how these dependent subdomains contribute to an overall domain-level reliability estimate.
 <p align="center">
   <img src="./domain.PNG" width="80%">
 </p>
 
-### LLM-Level Reliability
+### LLM-Level Reliability:
+This visualization shows how domain-level results come together to produce the overall reliability of the LLM. Each domain contributes according to its operational importance. The figure highlights how uncertainty at lower levels accumulates into the system-level reliability envelope.
 <p align="center">
   <img src="./LLM.PNG" width="80%">
 </p>
 
-### Operational Weights
+### Operational Weights:
+This figure shows the operational profiles used in the analysis. These weights reflect how frequently different subdomains and domains are expected to occur in real-world usage. They ensure that the final reliability estimate represents realistic operational conditions.
 <p align="center">
   <img src="./weight.PNG" width="80%">
 </p>
 
-### Hyperparameters
+### Hyperparameters:
+This figure presents the ranges of prior assumptions used in the imprecise probability model. The hyperparameters capture uncertainty about domain behaviour before observing data, and varying them produces a family of posterior results that reflect epistemic uncertainty.
 <p align="center">
   <img src="./hyperparameter.PNG" width="80%">
 </p>
 
-### Reliability
+### Reliability:
+This figure summarizes the final reliability results of HIP-LLM. It shows how the LLM’s expected failure-free performance changes over future tasks, along with the uncertainty range arising from both data and prior assumptions. It provides a clear view of the LLM's reliability under realistic usage.
 <p align="center">
   <img src="./reliability.PNG" width="80%">
 </p>
