@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ## 👥 Authors
 
-- [Robab Aghazadeh Chakherlou](https://scholar.google.co.uk/citations?view_op=search_authors&mauthors=robab+aghazadeh&hl=en&oi=ao)
+- [Robab Aghazadeh Chakherlou](https://scholar.google.co.uk/citations?hl=en&user=hfn5eFMAAAAJ)
 - [Qing Guo](https://scholar.google.co.uk/citations?hl=en&user=joK9NAoAAAAJ)
 - [Siddartha Khastgir](https://scholar.google.co.uk/citations?hl=en&user=r3ldU6sAAAAJ)
 - [Peter Popov](https://scholar.google.co.uk/citations?hl=en&user=ZraM0uwAAAAJ)
