@@ -47,7 +47,7 @@ pip install -r requirements.txt
 
 ### Hierarchical Bayesian Model
 <p align="center">
- <img src="./hierarchical_Bayes_imprecise_dependentSub_independentDomain-hyperinterval.png" width="80%">
+ <img src="./hierarchical_Bayes_imprecise_dependentSub_independentDomain-hyperInterval.png" width="80%">
 </p>
 
 ---
