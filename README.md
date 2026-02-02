@@ -102,11 +102,11 @@ This figure summarizes the final reliability results of HIP-LLM. It shows how th
 ### Comparison to baselines:
 Tables 4 and 5 summarize how system-level reliability estimates vary with prior assumptions, operational profile (OP) specification, and sample size. In the Small-N regime (Table 4), all methods slightly underestimate the ground-truth reliability, and both OP mismatch and prior choice materially affect results: informative priors can reduce point error when correctly aligned, while dataset-based or approximated OPs increase bias. Unlike point-estimate baselines, HIP-LLM reports envelopes of plausible medians and credible intervals, explicitly capturing epistemic uncertainty due to prior and OP ambiguity. In the Large-N regime (Table 5), posterior estimates converge across all methods and OP scenarios, with narrow intervals indicating data dominance; correspondingly, HIP-LLM’s envelopes collapse to tight bounds, showing that prior uncertainty becomes negligible when sufficient evidence is available.
 <p align="center">
-  <img src="./table_4.PNG" width="80%">
+  <img src="./table_4.PNG" width="45%">
 </p>
 
 <p align="center">
-  <img src="./table_5.PNG" width="80%">
+  <img src="./table_5.PNG" width="45%">
 </p>
 
 ### Sensitivity to the definition of success/failure:
