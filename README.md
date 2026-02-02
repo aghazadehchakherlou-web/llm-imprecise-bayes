@@ -114,6 +114,12 @@ This experiment evaluates the sensitivity of HIP-LLM to how “success” is def
 <p align="center">
   <img src="./Pass1_vs_Pass3.png" width="80%">
 </p>
+
+### Robustness to Memory Effects:
+Figure 10 examines the impact of memory-induced dependence on HIP-LLM’s reliability estimates. Figure 10a shows that, when conversational context is retained across tasks, memory grows monotonically with the number of queries, providing a practical proxy for increasing dependence. Figures 10b–10d then demonstrate how injecting this dependence into the BoolQ subdomain produces smooth, rightward shifts in posterior CDF envelopes at the subdomain, domain, and LLM levels as the assumed accuracy increases. Importantly, while dependence measurably propagates through the hierarchy, its effect remains controlled and does not qualitatively alter the overall reliability characterization, indicating that HIP-LLM’s posterior conclusions are robust to realistic departures from the i.i.d. assumption.
+<p align="center">
+  <img src="./Pass1_vs_Pass3.png" width="80%">
+</p>
 ---
 
 ## 📦 Repository Structure
