@@ -110,7 +110,7 @@ Tables 4 and 5 summarize how system-level reliability estimates vary with prior 
 </p>
 
 ### Sensitivity to the definition of success/failure:
-This experiment evaluates the sensitivity of HIP-LLM to how “success” is defined at the subdomain level by comparing Pass@1 and Pass@3 on a controlled setting (MBPP with Claude Sonnet 4.5). While the more permissive Pass@3 criterion increases observed success counts and shifts the posterior CDF envelope to higher reliability values, Figure 9 shows substantial overlap between the Pass@1 and Pass@3 posterior envelopes. This overlap indicates that HIP-LLM’s inferred reliability is only moderately sensitive to the specific success definition, demonstrating robustness to reasonable variations in evaluation criteria.
+This experiment evaluates the sensitivity of HIP-LLM to how “success” is defined at the subdomain level by comparing Pass@1 and Pass@3 on a controlled setting (MBPP with Claude Sonnet 4.5). While the more permissive Pass@3 criterion increases observed success counts and shifts the posterior CDF envelope to higher reliability values, following figure shows substantial overlap between the Pass@1 and Pass@3 posterior envelopes. This overlap indicates that HIP-LLM’s inferred reliability is only moderately sensitive to the specific success definition, demonstrating robustness to reasonable variations in evaluation criteria.
 <p align="center">
   <img src="./Pass1_vs_Pass3.png" width="40%">
 </p>
