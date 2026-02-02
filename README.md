@@ -44,13 +44,13 @@ pip install -r requirements.txt
 This figure provides a high-level overview of HIP-LLM, with an emphasis on how the operational profile shapes the analysis. It shows how an LLM is broken into multiple domains, each made up of several subdomains. Subdomains within the same domain share information, while different domains remain independent. This layered structure supports reliability inference from subdomains up to the full LLM ( subdomain → domain → LLM).
 
 <p align="center">
-  <img src="./General_Structure.PNG" width="80%">
+  <img src="./General_Structure_2.PNG" width="80%">
 </p>
 
 ### Hierarchical Bayesian Model: This visualization corresponds to the detailed model. It illustrates the full bottom-up Bayesian inference flow.
 This diagram illustrates the full hierarchical model used in HIP-LLM. It shows how subdomain results feed into domain-level parameters, which are then combined using operational profiles to estimate domain and system-level reliability. It highlights how uncertainty is represented and propagated through the hierarchy.
 <p align="center">
- <img src="./hierarchical_Bayes_imprecise_dependentSub_independentDomain-hyperInterval.png" width="80%">
+ <img src="./hierarchical_Bayes_imprecise_dependentSub_independentDomain-hyperInterval_2.png" width="80%">
 </p>
 
 ---
