@@ -78,7 +78,7 @@ This figure shows how subdomain results within the same domain are combined. The
 ### LLM-Level Reliability:
 This visualization shows how domain-level results come together to produce the overall reliability of the LLM. Each domain contributes according to its operational importance. The figure highlights how uncertainty at lower levels accumulates into the system-level reliability envelope.
 <p align="center">
-  <img src="./LLM.PNG" width="80%">
+  <img src="./LLM.PNG" width="50%">
 </p>
 
 ### Operational Weights:
