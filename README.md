@@ -125,7 +125,7 @@ Figure 10 examines the impact of memory-induced dependence on HIP-LLM’s reliab
 Figures 11a–11e empirically confirm the theoretical time-complexity analysis of HIP-LLM, showing that runtime scales as predicted with the number of domains, subdomains, hyperparameter configurations, Monte Carlo samples, and grid size, with subdomain-level inference clearly dominating the cost. The baseline timing breakdown in Fig. 11f further shows that subdomain posterior computation accounts for over 99% of total runtime, while domain- and LLM-level aggregation are negligible, explaining the weak dependence on the number of Monte Carlo samples. Consistently, Table 6 shows that peak memory usage scales approximately linearly with the number of domains, subdomains, hyperparameter configurations, and samples, but is effectively independent of the grid size, confirming efficient reuse of the hyperparameter grid.
 
 <p align="center">
-  <img src="./fig_11.png" width="80%">
+  <img src="./Fig11_RQ8.png" width="80%">
 </p>
 
 <p align="center">
