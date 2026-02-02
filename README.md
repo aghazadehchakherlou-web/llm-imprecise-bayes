@@ -129,7 +129,7 @@ Figures 11a–11e empirically confirm the theoretical time-complexity analysis o
 </p>
 
 <p align="center">
-  <img src="./Table 6_RQ8" width="80%">
+  <img src="./Table 6_RQ8.png" width="80%">
 </p>
 ---
 
