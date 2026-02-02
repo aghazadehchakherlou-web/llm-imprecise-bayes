@@ -50,7 +50,7 @@ This figure provides a high-level overview of HIP-LLM, with an emphasis on how t
 ### Hierarchical Bayesian Model: This visualization corresponds to the detailed model. It illustrates the full bottom-up Bayesian inference flow.
 This diagram illustrates the full hierarchical model used in HIP-LLM. It shows how subdomain results feed into domain-level parameters, which are then combined using operational profiles to estimate domain and system-level reliability. It highlights how uncertainty is represented and propagated through the hierarchy.
 <p align="center">
- <img src="./hierarchical_Bayes_imprecise_dependentSub_independentDomain-hyperInterval_2.png" width="80%">
+ <img src="./hierarchical_Bayes_imprecise_dependentSub_independentDomain-hyperInterval_2.PNG" width="80%">
 </p>
 
 ---
